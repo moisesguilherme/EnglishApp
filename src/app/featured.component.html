@@ -1,0 +1,13 @@
+<ActionBar title="Meu Curso de Inglês" class="action-bar"></ActionBar>
+
+<ScrollView class="page">
+    <StackLayout class="home-panel">
+
+        <Image src="~/image/perfil1.jpg" stretch="none" borderRadius="50" width="100" height="100"></Image>
+        <Label text="Alexandra" verticalAlignment="center" textAlignment="center" backgroundColor="white" color="black" height="100"></Label>
+
+        <Button class="bottom-sytle" text="Fácil" [nsRouterLink]="['/pagina1']"></Button>
+        <Button class="bottom-sytle" text="Médio" [nsRouterLink]="['/pagina2']"></Button> 
+        <Button class="bottom-sytle" text="Difícil" disabled="true"></Button>
+    </StackLayout>
+</ScrollView>

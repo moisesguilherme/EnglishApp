@@ -1,0 +1,19 @@
+ <Page id="idPage" (loaded)="pageLoaded($event)">
+
+ <ActionBar title="Inglês Básico" class="action-bar"></ActionBar>
+
+    
+        <StackLayout class="home-panel">
+            
+                <Label class="label-question"   [text]="labelTitle"></Label>
+
+                <!-- <Button text="Reload"  (tap)="pageLoaded($event)" height="40"></Button> -->
+
+                <Button id="btn1" class="button-anwser"  [text]="btn1"  (tap)="onTap($event)" ></Button>    
+                <Button id="btn2" class="button-anwser"  [text]="btn2"  (tap)="onTap($event)" ></Button>
+                <Button id="btn3" class="button-anwser"  [text]="btn3"  (tap)="onTap($event)" ></Button>
+                <Button id="btn4" class="button-anwser"  [text]="btn4"  (tap)="onTap($event)" ></Button>
+        
+        </StackLayout>
+
+ </Page>
